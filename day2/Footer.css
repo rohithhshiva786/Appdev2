@@ -1,0 +1,51 @@
+.Footer {
+    position: relative;
+    z-index: 10;
+    left: 0;
+    bottom: 0;
+    width: 100vw;
+    height: 90h;
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.FooterLogo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px; 
+}
+
+.FooterLogo a {
+    color: #fff; 
+    font-size: 24px; 
+    text-decoration: none; 
+    transition: color 0.3s ease; 
+}
+
+.FooterLogo a:hover {
+    color: #04D9FF; 
+}
+.FooterContent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:20px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.footeritems
+{
+    letter-spacing: 2px;
+}
+.footeritems:hover
+{
+    color: rgb(30, 99, 158);
+    border-bottom:1px solid white;
+}
+.rights
+{
+    letter-spacing: 2px;
+}
