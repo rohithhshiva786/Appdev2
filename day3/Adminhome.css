@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+::selection {
+  color: #000;
+  background: #fff;
+}
+
+nav {
+  position: fixed;
+  background: #1b1b1b;
+  width: 100%;
+  padding: 10px 0;
+  z-index: 12;
+}
+
+nav .menu7 {
+  max-width: 1250px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+.menu7 .logo7 a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 35px;
+  font-weight: 600;
+}
+
+.menu7 ul {
+  display: inline-flex;
+}
+
+.menu7 ul li {
+  list-style: none;
+  margin-left: 7px;
+}
+
+.menu7 ul li:first-child {
+  margin-left: 0px;
+}
+
+.menu7 ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 8px 15px;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+.menu7 ul li a:hover {
+  background: #fff;
+  color: black;
+}
+.b{
+    background-color: #000;
+}
+
+/* .imgbg {
+  background-image: url("https://images.unsplash.com/photo-1502886315456-e6c2e728db92?q=80&w=1785&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D")
+  background-size: cover;
+
+} */
+
+.img::before {
+  content: '';
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.center7 {
+  position: absolute;
+  top: 52%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.center7 .titleg {
+  color: #fff;
+  font-size: 55px;
+  font-weight: 600;
+  
+}
+
+.center7 .sub_titleg {
+  color: #fff;
+  font-size: 52px;
+  font-weight: 600;
+}
+
+.center7 .btnsg {
+  margin-top: 20px;
+}
+
+.center7 .btnsg button {
+  height: 55px;
+  width: 170px;
+  border-radius: 5px;
+  border: none;
+  margin: 0 10px;
+  border: 2px solid white;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 0 10px;
+  cursor: pointer;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+.center7 .btnsg button:first-child {
+  color: #fff;
+  background: none;
+}
+
+.btnsg button:first-child:hover {
+  background: white;
+  color: black;
+}
+
+.center7 .btnsg button:last-child {
+  background: rgb(251, 253, 252);
+  color: black;
+}
+.bodyttr{
+    background-image: url("Image 2.jpg");
+    background-size: cover;
+    height: 100vh;
+   }
+   .butt:hover {
+    background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    transform: scale(1.2); 
+
+  }
